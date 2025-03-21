@@ -12,6 +12,7 @@ gunicorn = "^20.1"  # Эта строка добавится после кома
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
 
+poetry export -f requirements.txt --without-hashes > requirements.txt
 
 
 
