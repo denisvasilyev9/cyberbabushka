@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КиберБабка</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>КиберБабка Online</h1>
+    <div id="game">
+        <p id="output">Привет, внучек! Чо хочешь?</p>
+        <input type="text" id="input" placeholder="Напиши бабке">
+        <button onclick="sendMessage()">Отправить</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
