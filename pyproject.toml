@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cyberbabushka"
+version = "0.1.0"
+description = "Кибер-игра с бабкой"
+authors = ["Твое имя"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+gunicorn = "^21.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
